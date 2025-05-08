@@ -29,7 +29,7 @@
     </dependencies>
 
     <build>
-    	<finalName>docker-java-app-example</finalName>
+    	<finalName>$(FinalName)</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
