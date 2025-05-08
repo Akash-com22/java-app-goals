@@ -39,5 +39,6 @@ steps:
 - task: Gitleaks@3
   inputs:
     scanlocation: '$(Build.SourcesDirectory)'
-    configtype: 'default'
+    configtype: 'predefined'
+    predefinedconfigfile: 'GitleaksUdmCombo.toml'
     reportformat: 'sarif'
