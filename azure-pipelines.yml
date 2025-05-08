@@ -31,4 +31,4 @@ steps:
       cd $(build.sourcesDirectory)
       ls
       pwd
-      vim pom.xml
+      cat pom.xml
