@@ -1,0 +1,6 @@
+{
+  "Database": {
+    "ConnectionString": "Server=YOURSERVERNAME; Database=YOURDATABASENAME; Trusted_Connection=True; MultipleActiveResultSets=true",
+    "ApiKey": "AIzaSyDaGmWKa4JsXZ-HjGw7ISLn_3namBGewQe"
+  }
+}
