@@ -20,6 +20,7 @@ steps:
   inputs:
     sources: 'pom.xml'
     tokenPattern: 'azpipelines'
+  displayName: Token coniguration 
 
 - task: Bash@3
   inputs:
