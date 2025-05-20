@@ -11,11 +11,11 @@ steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
-# - task: replacetokens@6
-#   inputs:
-#     sources: 'pom.xml'
-#     tokenPattern: 'azpipelines'
-#   displayName: Token coniguration 
+- task: replacetokens@6
+  inputs:
+    sources: 'pom.xml'
+    tokenPattern: 'azpipelines'
+  displayName: Token coniguration 
 
 # - task: Bash@3
 #   inputs:
