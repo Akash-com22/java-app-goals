@@ -29,19 +29,19 @@ steps:
       pwd
       cat pom.xml
 
-# - task: Gitleaks@3
-#   inputs:
-#     scanlocation: '$(Build.SourcesDirectory)'
-#     configtype: 'predefined'
-#     predefinedconfigfile: 'GitleaksUdmCombo.toml'
-#     reportformat: 'sarif'
 - task: Gitleaks@3
   inputs:
     scanlocation: '$(Build.SourcesDirectory)'
     configtype: 'predefined'
     predefinedconfigfile: 'GitleaksUdmCombo.toml'
     reportformat: 'sarif'
-    reportname: 'gitleaksfile'
+# - task: Gitleaks@3
+#   inputs:
+#     scanlocation: '$(Build.SourcesDirectory)'
+#     configtype: 'predefined'
+#     predefinedconfigfile: 'GitleaksUdmCombo.toml'
+#     reportformat: 'sarif'
+#     reportname: 'gitleaksfile'
     
 - task: PublishBuildArtifacts@1
   inputs:
