@@ -29,7 +29,7 @@
     </dependencies>
 
     <build>
-    	<finalName>$(FinalName)</finalName>
+    	<finalName>Snap-Prod</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
