@@ -28,6 +28,7 @@ steps:
       ls
       pwd
       cat pom.xml
+      git fsck
 
 - task: Gitleaks@3
   inputs:
